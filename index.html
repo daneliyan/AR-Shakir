@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>AR Shakir</title>
+  <link rel="preload" href="fonts/ManropeRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ManropeMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ManropeSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ManropeBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ManropeExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a class="header__logo">AR Shakir</a>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item">
+          <button class="nav__btn">
+            Product
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 2.5L4.5 6.38889L8 2.5" stroke="white" stroke-width="2" />
+            </svg>
+          </button>
+          <div class="dropdown">
+            <ul class="list-reset dropdown__list">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Netflix</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Yandex</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav__item">
+          <button class="nav__btn">
+            Template
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 2.5L4.5 6.38889L8 2.5" stroke="white" stroke-width="2" />
+            </svg>
+          </button>
+          <div class="dropdown">
+            <ul class="list-reset dropdown__list">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Template #1</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Template #2</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Template #3</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link" data-menu-item data-scroll>Template #4</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link" data-menu-item data-scroll>Blog</a></li>
+        <li class="nav__item"><a href="#" class="nav__link" data-menu-item data-scroll>Pricing</a></li>
+      </ul>
+      <div class="header__btns">
+        <a href="#" class="sign-in__btn">Sign In</a>
+        <a href="#" class="btn-reset btn btn-orange header__btn">Start Free</a>
+      </div>
+    </nav>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1 class="hero__title">Managing your crypto portfolio has never been easier</h1>
+      <p class="hero__descr">End-to-end payments and financial management in a single solution. Meet the right platform to
+        help realize.</p>
+      <div class="hero__btns">
+        <a href="#" class="btn-reset btn btn-orange hero__btn">Get Started</a>
+        <button class="btn-reset play__btn" aria-label="Play Video">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="60" height="60" rx="30" fill="#22D497" />
+            <path
+              d="M39 28.7679C40.3333 29.5378 40.3333 31.4623 39 32.2321L26.25 39.5933C24.9167 40.3631 23.25 39.4008 23.25 37.8612L23.25 23.1388C23.25 21.5992 24.9167 20.6369 26.25 21.4067L39 28.7679Z"
+              fill="white" />
+          </svg>
+          <div class="video__descr">See How It Works</div>
+        </button>
+      </div>
+    </div>
+    <div class="hero__img"><img src="./img/hero/hero-img.png" alt="Скрин личного кабинета"></div>
+  </div>
+</section>
+
+      <section class="partners">
+  <div class="container">
+    <h2 class="partners__title">Over 32k+ software businesses growing with AR Shakir.</h2>
+    <div class="swiper partners__slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-1.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-2.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-3.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-4.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-5.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-6.png" alt="Samsung">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/partners/logo-7.png" alt="Samsung">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="feature">
+  <div class="container">
+    <div class="feature__column">
+      <div class="feature__column-img"><img loading="lazy" src="./img/feature/illustration-1.png" width="568" height="568" alt="illustration"></div>
+      <div class="feature__column-content">
+        <div class="feature__subtitle">Our Feature</div>
+        <h2 class="feature__title">All of your portfolios are linked to your AR Shakir account</h2>
+        <p class="feature__descr">Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.</p>
+        <a href="#" class="btn-reset btn btn-blue">Get Started</a>
+      </div>
+    </div>
+    <div class="feature__column">
+      <div class="feature__column-content">
+        <div class="feature__subtitle">Our Feature</div>
+        <h2 class="feature__title">All payments can be managed from one account</h2>
+        <p class="feature__descr">Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.</p>
+        <a href="#" class="btn-reset btn btn-blue">Get Started</a>
+      </div>
+      <div class="feature__column-img"><img loading="lazy" src="./img/feature/illustration-2.png" width="568" height="568" alt="illustration"></div>
+    </div>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <div class="about__heading">
+      <h2 class="about__title">Yet preference connection unpleasant yet melancholy but end appearance</h2>
+      <a href="#" class="btn-reset about__btn btn-orange">Get Started Now</a>
+    </div>
+    <div class="about__column">
+      <ul class="list-reset about__list">
+        <li class="about__item">
+          <div class="about__item-number">1</div>
+          <div class="about__item-content">
+            <h3 class="about__item-title">First Working Process</h3>
+            <div class="about__item-descr">Blessing it ladyship on sensible judgment settling outweigh.</div>
+          </div>
+        </li>
+        <li class="about__item">
+          <div class="about__item-number">2</div>
+          <div class="about__item-content">
+            <h3 class="about__item-title">Dedicated Team</h3>
+            <div class="about__item-descr">Warmly little before cousin sussex entire men set.</div>
+          </div>
+        </li>
+        <li class="about__item">
+          <div class="about__item-number">3</div>
+          <div class="about__item-content">
+            <h3 class="about__item-title">24/7 Hours Support</h3>
+            <div class="about__item-descr">And excellence partiality estimating terminated day everything.</div>
+          </div>
+        </li>
+      </ul>
+      <div class="about__video">
+        <video src="video.mp4" poster="img/about/poster.jpg" muted preload="metadata" playsinline></video>
+        <button class="btn-reset about__play" aria-label="Play video">
+          <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="47" cy="47" r="47" fill="white" />
+            <path d="M67 47.5L36.25 65.2535L36.25 29.7465L67 47.5Z" fill="#FF7F5C" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="how-it-work">
+  <div class="container">
+    <div class="how-it-work__content">
+      <h2 class="how-it-work__title">Germany-based & GDPR Compliant</h2>
+      <ul class="list-reset how-it-work__list">
+        <li class="how-it-work__item">
+          <div class="how-it-work__item-img">
+            <img src="./img/how-it-work/icon-1.svg" alt="Data does not leave our servers">
+          </div>
+          <p class="how-it-work__item-text">Data does not leave our servers</p>
+        </li>
+        <li class="how-it-work__item">
+          <div class="how-it-work__item-img">
+            <img src="./img/how-it-work/icon-2.svg" alt="Own infrastructure">
+          </div>
+          <p class="how-it-work__item-text">Own infrastructure</p>
+        </li>
+        <li class="how-it-work__item">
+          <div class="how-it-work__item-img">
+            <img src="./img/how-it-work/icon-3.svg" alt="Most renowed data centers">
+          </div>
+          <p class="how-it-work__item-text">Most renowed data centers</p>
+        </li>
+      </ul>
+    </div>
+    <div class="how-it-work__cards">
+      <div class="how-it-work__card">
+        <h3 class="how-it-work__card-title">Outward clothes promise at gravity.</h3>
+        <p class="how-it-work__card-descr">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+        <a href="#" class="btn-reset btn btn-blue read-more__btn">Read More</a>
+      </div>
+      <div class="how-it-work__card">
+        <h3 class="how-it-work__card-title">Sufficient particular impossible.</h3>
+        <p class="how-it-work__card-descr">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+        <a href="#" class="btn-reset btn btn-blue read-more__btn">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="blog">
+  <div class="container">
+    <h2 class="blog__title">Recent Blogs</h2>
+    <ul class="list-reset blog__grid">
+      <li class="blog__item">
+        <div class="blog__item-content">
+          <div class="blog__item-category">Best Practices</div>
+          <h3 class="blog__item-title">In design active temper be uneasy. Thirty for remove plenty regard.</h3>
+          <a href="#" class="link-reset blog__item-link">
+            Read More
+            <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 4.75H11.5M11.5 4.75L7 0.75M11.5 4.75L7 9.25" stroke="#1B1C31" stroke-width="2" />
+            </svg>
+          </a>
+        </div>
+        <div class="blog__item-img"><img class="img" src="./img/blog/img-1.jpg" alt="image"></div>
+      </li>
+      <li class="blog__item">
+        <div class="blog__item-content">
+          <div class="blog__item-category">Best Practices</div>
+          <h3 class="blog__item-title">Partiality continuing particular principles.</h3>
+        </div>
+        <div class="blog__item-img"><img src="./img/blog/img-2.jpg" alt="image"></div>
+      </li>
+      <li class="blog__item">
+        <div class="blog__item-content">
+          <div class="blog__item-category">Best Practices</div>
+          <h3 class="blog__item-title">Village did removed enjoyed explain</h3>
+        </div>
+        <div class="blog__item-img"><img src="./img/blog/img-3.jpg" alt="image"></div>
+      </li>
+      <li class="blog__item">
+        <div class="blog__item-content">
+          <div class="blog__item-category">Best Practices</div>
+          <h3 class="blog__item-title">Wise busy past both park when an ye no. Nay likely her length.</h3>
+        </div>
+        <div class="blog__item-img"><img src="./img/blog/img-4.jpg" alt="image"></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="cta">
+  <div class="container">
+    <div class="cta__content">
+      <h2 class="cta__title">Join millions of</br>creative people with AR Shakir</h2>
+      <a href="#" class="btn-reset btn btn-orange cta__btn">
+        Join The Waitlist
+        <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 4.75H11.5M11.5 4.75L7 0.75M11.5 4.75L7 9.25" stroke="#1B1C31" stroke-width="2" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <div class="footer__info-logo">AR Shakir</div>
+        <div class="footer__info-descr">Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise
+          blessing. Indulgence way everything joy alteration boisterous the attachment.</div>
+      </div>
+      <div class="footer__nav">
+        <nav class="footer__nav-column" title="Company">
+          <div class="footer__nav-title">Company</div>
+          <ul class="list-reset footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">About Us</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Careers</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Blog</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav-column" title="Product">
+          <div class="footer__nav-title">Product</div>
+          <ul class="list-reset footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Invoicing Platform</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Accounting Plateform</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Create Proposal</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contracts</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav-column" title="Resources">
+          <div class="footer__nav-title">Resources</div>
+          <ul class="list-reset footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Proposal Template</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Invoice Template</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Tuturoial</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">How to write a contract</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="list-reset accordion__list">
+        <li class="accordion">
+          <button class="btn-reset accordion__control" aria-expanded="false">
+            <span class="accordion__title">Company</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content" aria-hidden="true">
+            <ul class="list-reset footer__nav-list">
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">About Us</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Careers</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Blog</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Pricing</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="accordion">
+          <button class="btn-reset accordion__control" aria-expanded="false">
+            <span class="accordion__title">Product</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content" aria-hidden="true">
+            <ul class="list-reset footer__nav-list">
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Invoicing Platform</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Accounting Plateform</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Create Proposal</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contracts</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="accordion">
+          <button class="btn-reset accordion__control" aria-expanded="false">
+            <span class="accordion__title">Resources</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content" aria-hidden="true">
+            <ul class="list-reset footer__nav-list">
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Proposal Template</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Invoice Template</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">Tuturoial</a></li>
+              <li class="footer__nav-item"><a href="#" class="footer__nav-link">How to write a contract</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__copy">
+      <div class="footer__copy-left">2022 AR Shakir. All rights reserved. <a href="#">— Privacy Policy</a> <a href="#">— Terms of Services</a></div>
+      <div class="footer__copy-right">Supported by <a>Microsoft Startup</a></div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
